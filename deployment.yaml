@@ -19,7 +19,7 @@ spec:
         image: myspringacr77.azurecr.io/spring-app:v7
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: "prod"
